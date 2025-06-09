@@ -2,8 +2,8 @@
 nombre1 = input("Ingrese el nombre del primer jugador: ")
 nombre2 = input("Ingrese el nombre del segundo jugador: ")
 
-jugador1 = input("Hola jugador 1!! que eliges? piedra, papel o tijera?: ").strip().lower()
-jugador2 = input("Hola jugador 2!! que eliges? piedra, papel o tijera?: ").strip().lower()
+jugador1 = input("Hola " + nombre1 +"!! que eliges? piedra, papel o tijera?: ").strip().lower()
+jugador2 = input("Hola " + nombre2 + "!! que eliges? piedra, papel o tijera?: ").strip().lower()
 
 condicion1 = jugador1=="piedra" and jugador2=="tijera"
 condicion2 = jugador1=="papel" and jugador2=="piedra"
